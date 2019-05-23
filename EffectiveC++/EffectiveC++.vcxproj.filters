@@ -5,5 +5,33 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="Data\Chapter01">
+      <UniqueIdentifier>{dc24aa5f-c78b-431a-8a58-dbf03767b853}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Main">
+      <UniqueIdentifier>{7c136209-4158-4638-afbc-f4667d46ff87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Common">
+      <UniqueIdentifier>{60e56f19-9dab-4be9-82c8-f4bc8283d91f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SourceCode\Main.cpp">
+      <Filter>Data\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Common.cpp">
+      <Filter>Data\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Chapter1_02.cpp">
+      <Filter>Data\Chapter01</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SourceCode\Common.h">
+      <Filter>Data\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Chaoter1_02.h">
+      <Filter>Data\Chapter01</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
