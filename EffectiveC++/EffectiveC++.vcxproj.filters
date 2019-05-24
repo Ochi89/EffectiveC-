@@ -25,12 +25,18 @@
     <ClCompile Include="SourceCode\Chapter1_02.cpp">
       <Filter>Data\Chapter01</Filter>
     </ClCompile>
+    <ClCompile Include="SourceCode\Chapter1_03.cpp">
+      <Filter>Data\Chapter01</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SourceCode\Common.h">
       <Filter>Data\Common</Filter>
     </ClInclude>
-    <ClInclude Include="SourceCode\Chaoter1_02.h">
+    <ClInclude Include="SourceCode\Chapter1_03.h">
+      <Filter>Data\Chapter01</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Chapter1_02.h">
       <Filter>Data\Chapter01</Filter>
     </ClInclude>
   </ItemGroup>
