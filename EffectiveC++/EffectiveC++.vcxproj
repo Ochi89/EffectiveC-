@@ -151,12 +151,14 @@
   <ItemGroup>
     <ClCompile Include="SourceCode\Chapter1_03.cpp" />
     <ClCompile Include="SourceCode\Chapter1_02.cpp" />
+    <ClCompile Include="SourceCode\Chapter1_05.cpp" />
     <ClCompile Include="SourceCode\Common.cpp" />
     <ClCompile Include="SourceCode\Main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SourceCode\Chapter1_02.h" />
     <ClInclude Include="SourceCode\Chapter1_03.h" />
+    <ClInclude Include="SourceCode\Chapter1_05.h" />
     <ClInclude Include="SourceCode\Common.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
