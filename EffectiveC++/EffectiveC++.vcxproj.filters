@@ -14,6 +14,9 @@
     <Filter Include="Data\Common">
       <UniqueIdentifier>{60e56f19-9dab-4be9-82c8-f4bc8283d91f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Data\Vector3">
+      <UniqueIdentifier>{fc5b6af0-1799-4a63-8b99-e751cd3ea692}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SourceCode\Main.cpp">
@@ -31,6 +34,9 @@
     <ClCompile Include="SourceCode\Chapter1_05.cpp">
       <Filter>Data\Chapter01</Filter>
     </ClCompile>
+    <ClCompile Include="SourceCode\Vector3.cpp">
+      <Filter>Data\Vector3</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SourceCode\Common.h">
@@ -44,6 +50,9 @@
     </ClInclude>
     <ClInclude Include="SourceCode\Chapter1_05.h">
       <Filter>Data\Chapter01</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Vector3.h">
+      <Filter>Data\Vector3</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
